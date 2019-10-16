@@ -102,7 +102,7 @@ def movies_with_directors_set(source)
     director_name = source[index][:name]
     index_a = 0
     while index_a < source[index][index_a].size do
-
+      puts source[index][index_a]
       index_a += 1
     end
     index += 1
