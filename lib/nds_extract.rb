@@ -100,7 +100,6 @@ def movies_with_directors_set(source)
   index = 0
   while index < source.size do
     director_name = source[index][:name]
-    index_a = 0
     movies_hash = source[index][:movies]
     new_aoh_with_names = movies_with_director_key(director_name, movies_hash)
     new_array << new_aoh_with_names
